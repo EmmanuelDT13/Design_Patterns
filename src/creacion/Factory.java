@@ -83,7 +83,6 @@ class VehicleFactory{
 		default: throw new RuntimeException("The specified vehicule doesn't exist");
 		}
 	}
-	
 }
 
 
@@ -107,7 +106,7 @@ class TransferenceTransaction extends Transaction{
 	
 	@Override
 	public void doTransaction(Integer quantity) {
-		System.out.println("Your operation is:" + this.transaction + ". You have transfered $" + quantity + " dollars");
+		System.out.println("Your operation is: " + this.transaction + ". You have transfered $" + quantity + " dollars");
 	}
 	
 }
