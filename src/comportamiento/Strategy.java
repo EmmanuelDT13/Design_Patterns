@@ -29,6 +29,10 @@ public class Strategy {
 		calculator.setOperation(new StrategyDivisionOperation());
 		System.out.println(calculator.calculate(100, 2));
 		
+		
+		String saludo = "Hola";
+		System.out.println(saludo.contains (""));
+		
 	}
 
 }
