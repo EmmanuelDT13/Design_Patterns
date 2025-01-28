@@ -22,12 +22,10 @@ public class Singleton {
 		Map<String, String> configurations = new HashMap<String, String>();
 		configurations.put("name", "emmanuel");
 		configurations.put("password", "emm_an#");
-		
+
 		instanceSingletonConfigManager.addConfiguration("port", "8089");
-		instanceSingletonConfigManager.addConfiguration(configurations);
-		
+		instanceSingletonConfigManager.addConfiguration(configurations);		
 		System.out.println(instanceSingletonConfigManager.getConfigurations());
-		
 		System.out.println(instanceSingletonConfigManager.getConfiguration("port"));
 	}
 }
